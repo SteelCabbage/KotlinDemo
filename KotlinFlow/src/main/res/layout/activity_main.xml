@@ -10,11 +10,22 @@
         android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#ffff00"
         android:text="Hello Cabbage~"
         android:textSize="20sp"
+        android:translationZ="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-9dp"
+        android:layout_marginBottom="-11dp"
+        android:background="#00ffff"
+        android:text="Hi"
+        app:layout_constraintBottom_toTopOf="@+id/tv"
+        app:layout_constraintStart_toEndOf="@+id/tv" />
 </androidx.constraintlayout.widget.ConstraintLayout>
